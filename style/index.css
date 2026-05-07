@@ -1,3 +1,8 @@
+*{
+    margin: 2;
+    font-family: Verdana;
+}
+
 body{
 display: flex;
 }
@@ -10,23 +15,105 @@ display: flex;
     display: flex;
 }
 
+.identifica{
+    background-color: #c5c5c5;
+    padding-bottom: 2%;
+}
+
+.identifica img{
+width: 60%;
+border-radius: 200px;
+margin-left: 20%;
+margin-top: 10%;
+background-color: #979797;
+}
+
+.identifica h1{
+    font-size: 60px;
+    font-family: Verdana;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.identifica h2{
+    font-size: 50px;
+    font-family: Verdana;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.identifica h6{
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.identifica p{
+    font-size: 20px;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.contato{
+    font-family: Verdana;
+    background-color: #d8d8d8;
+    padding-bottom: 5%;
+
+}
+
+.contato div{
+    display: flex;
+        align-items: center;
+        padding-left: 2%;
+        align-content: space-evenly;
+}
+
+.contato img{
+    
+    width: 10%;
+    border-radius: 70px;
+}
+
+.contatos{
+width: 120%;
+height: 80%;
+}
+
+.Idiomas div{
+    display: flex;
+     align-items: center;
+        padding-left: 2%;
+        align-content: space-evenly;
+}
+
+
+
 .deco{
     width: 2.5%;
-    height: 900px;
+
     background-color: #ff1414a9;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
+
 .resumo{
     width: 35%;
-    height: 900px;
+
     background-color: rgb(205, 205, 205);
 }
 
 .info{
-    height: 900px;
+  
     width:67%;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 89%);
 }
 

@@ -1,34 +1,34 @@
-*{
+* {
     margin: 2;
     font-family: Verdana;
 }
 
-body{
-display: flex;
-}
-
-.contato img{
-    padding-right: 5px;
-}
-
-.contatos{
+body {
     display: flex;
 }
 
-.identifica{
+.contato img {
+    padding-right: 5px;
+}
+
+.contatos {
+    display: flex;
+}
+
+.identifica {
     background-color: #c5c5c5;
     padding-bottom: 2%;
 }
 
-.identifica img{
-width: 60%;
-border-radius: 200px;
-margin-left: 20%;
-margin-top: 10%;
-background-color: #979797;
+.identifica img {
+    width: 60%;
+    border-radius: 200px;
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: #979797;
 }
 
-.identifica h1{
+.identifica h1 {
     font-size: 60px;
     font-family: Verdana;
     font-weight: 600;
@@ -38,7 +38,7 @@ background-color: #979797;
     margin-bottom: 0%;
 }
 
-.identifica h2{
+.identifica h2 {
     font-size: 50px;
     font-family: Verdana;
     font-weight: 400;
@@ -47,7 +47,7 @@ background-color: #979797;
     margin-bottom: 0%;
 }
 
-.identifica h6{
+.identifica h6 {
     font-size: 20px;
     font-family: Verdana;
     font-weight: 400;
@@ -56,47 +56,72 @@ background-color: #979797;
     margin-bottom: 0%;
 }
 
-.identifica p{
+.identifica p {
     font-size: 20px;
     font-family: Verdana;
     text-align: center;
 }
 
-.contato{
+.contato {
     font-family: Verdana;
     background-color: #d8d8d8;
     padding-bottom: 5%;
 
 }
 
-.contato div{
+.contato div {
     display: flex;
-        align-items: center;
-        padding-left: 2%;
-        align-content: space-evenly;
+    align-items: center;
+    padding-left: 2%;
+    align-content: space-evenly;
 }
 
-.contato img{
-    
+.contato img {
+
     width: 10%;
     border-radius: 70px;
 }
 
-.contatos{
-width: 120%;
-height: 80%;
+.contatos {
+    width: 120%;
+    height: 80%;
 }
 
-.Idiomas div{
+.Idiomas div {
     display: flex;
-     align-items: center;
-        padding-left: 2%;
-        align-content: space-evenly;
+    align-items: center;
+    padding-left: 3%;
+    align-content: space-evenly;
 }
 
 
 
-.deco{
+.sabidos img {
+    width: 12.5%;
+    height: 7.5%;
+}
+
+.habilidades div {
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    ;
+    align-content: space-evenly;
+
+}
+
+.habilidades img {
+    padding-right: 1%;
+    width: 4%;
+    border-radius: 150px;
+}
+
+.skill img {
+    width: 12.5%;
+    height: 7.5%;
+}
+
+.deco {
     width: 2.5%;
 
     background-color: #ff1414a9;
@@ -105,15 +130,71 @@ height: 80%;
 }
 
 
-.resumo{
+.resumo {
     width: 35%;
 
     background-color: rgb(205, 205, 205);
 }
 
-.info{
-  
-    width:67%;
-    background-color: hsl(0, 0%, 89%);
+.IPcomeco {
+    display: flex;
+    align-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
 }
 
+.IPmid {
+    padding-left: 5%;
+    width: 70%;
+}
+
+.IPcomeco img {
+    padding-right: 2px;
+}
+
+.Educacao{
+
+    align-content: space-evenly;
+    align-items: left;
+    font-size: 25px;
+}
+
+.Educacao img{
+    width: 100px;
+    padding-right: 5px;
+}
+
+.EduCOM{
+      display: flex;
+    align-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+}
+
+.EduCOM img{
+  width: 150px;
+    padding-right: 5px;
+    padding-left: 7px;
+}
+
+.EduMID{
+   display: flex;
+     padding-left: 5%;
+    width: 70%;
+    align-items: center;
+}
+
+.EduMID img{
+      width: 45px;
+      height: 45px;
+      padding-left:5px ;
+      padding-right: 60px;
+}
+
+.info {
+    width: 67%;
+    background-color: hsl(0, 0%, 89%);
+    font-family: Verdana;
+    font-size: 20px;
+    padding-left: 4%;
+}
